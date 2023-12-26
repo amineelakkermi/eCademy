@@ -309,14 +309,13 @@ section .rightSide .imgContainer img{
 
 
 
-.feedBackSection{
-    background: whitesmoke;
-}
+
 
 
 
 .swiper{
-    width: 1166px;
+    max-width: 1166px;
+    width: 100%;
     background: rgb(219, 237, 238);
     position: relative;
     z-index: 999;

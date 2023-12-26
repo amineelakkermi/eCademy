@@ -65,7 +65,7 @@ ScrollReveal({
 
 ScrollReveal().reveal('.section',{ origin : 'top' });
 ScrollReveal().reveal('.section-reverse',{ origin : 'top' });
-ScrollReveal().reveal('.section-column', { origin : 'bottom' });
+ScrollReveal().reveal('.section-column', { origin : 'top' });
 ScrollReveal().reveal('.footerPart',{ origin : 'top' });
 
 
