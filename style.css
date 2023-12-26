@@ -182,9 +182,13 @@ section .rightSide .imgContainer img{
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-    
 }
+
+.spanColoring{
+    color: var(--specialColor);
+    font-weight: 600;
+}
+
 .section-column .headingPart{
     display: flex;
     flex-direction: column;
@@ -270,70 +274,27 @@ section .rightSide .imgContainer img{
     max-width: 650px;
 }
 
-.skillsSection{
-    background: rgb(242, 248, 249);
-    display: flex;
-    position: relative;
-
-}
-.skillsSection .leftSide .imgContainer img{
-    width: 90%;
-    height: 90%;
-}
-
-.rightSide h2{
-    font-size: 40px;
-    font-weight: 700;
-}
-
-
-.skillsSection .rightSide .options{
-    display: flex;
-    margin: 1rem 0;
-}
-.skillsSection .rightSide .options ul{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.skillsSection .rightSide .options ul li{
-    font-size: 17px;
-    font-weight: 600;
-}
-
-.skillsSection .rightSide button{
-    margin-top: 1rem;
-    cursor: pointer;
-}
-
-
-
-
-
-
-
 
 .swiper{
-    max-width: 1166px;
-    width: 100%;
+    width: 80%;
     background: rgb(219, 237, 238);
-    position: relative;
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 6rem;
-
+    
+    position: relative;
+    margin: 0 5rem;
 }
 
 .swiper-slide{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 1166px;
-    width: 100%;
     height: 100%;
     z-index: 999;
+    width: 100%;
+    margin: 2rem 4rem;
 }
 .swiper-slide .leftPart{
     display: flex;
@@ -346,6 +307,7 @@ section .rightSide .imgContainer img{
 }
 .swiper-slide .leftPart p{
     text-align: start;
+    max-width: 500px;
 }
 .swiper-slide .rightPart{
     flex: 1;
@@ -354,13 +316,14 @@ section .rightSide .imgContainer img{
     height: 100%;
 }
 .swiper-slide .rightPart img{
-    width: 450px;
-    height: 450px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 .swiper-button-prev{
     position: absolute;
+    left: 0;
     background: rgb(247, 235, 213);
     border-radius: 50%;
     font-size: 16px;
@@ -370,6 +333,7 @@ section .rightSide .imgContainer img{
 }
 .swiper-button-next{
     position: absolute;
+    right: 0;
     background: rgb(247, 235, 213);
     border-radius: 50%;
     font-size: 16px;
@@ -519,7 +483,7 @@ section .rightSide .imgContainer img{
     }
 
     .section .leftSide h1{
-        font-size: 45px;
+        font-size: 40px;
         line-height: 60px;
     }
     .section-column{
@@ -532,18 +496,23 @@ section .rightSide .imgContainer img{
     .section-column .secondPart .boxes .box{
         width: 100%;
     }
-    .options{
-        flex-direction: column;
-        gap: 20px;
-    }
+  
 
     .section-reverse .leftSide .imgContainer img{
         width: 100%;
         height: 100%;
     }
-    
+
+    .swiper-slide{
+        flex-direction: column;
+        width: 100%;
+    }
+
+   
     .footerPart{
         padding: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -672,3 +641,9 @@ section .rightSide .imgContainer img{
    
     
 }
+
+
+
+
+
+
